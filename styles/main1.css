@@ -165,6 +165,12 @@ body{
     font-weight: 500;
     padding-top: 15px;
     text-align: left;
+}
+.anime-tooltip .japanese-name{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 } 
     /* rating and sub dub container */
         .rate-and-sub-dub-container{
