@@ -92,7 +92,6 @@ body{
     width: 12px;
     margin-right: 2px;
 }
-
 .mic-icon{
     width: 12px;
     vertical-align: top;
@@ -122,3 +121,121 @@ body{
 .anime-name:hover{
     color: rgb(250, 250, 250);
 }
+
+/* Tooltip*/
+
+.anime-top{
+    display: inline-block;
+    position: relative;
+}
+.anime-tooltip{
+    background-color: rgb(22, 22, 22);
+    color: rgb(109, 109, 109);
+    font-size: 11px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 230px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    padding: 20px 20px 40px 20px;
+    position: absolute;
+    top: 35px;
+    left: 195px;
+    text-align: left;
+    transition: opacity 0.15s;
+}
+.anime-top:hover .anime-tooltip{
+    opacity: 1;
+    visibility: visible;
+}
+.anime-top .anime-tooltip::after {
+    content: "";
+    position: absolute;
+}
+.anime-tooltip .anime-type{
+    padding: 4px 7px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.anime-tooltip .anime-name{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 15px;
+    text-align: left;
+} 
+    /* rating and sub dub container */
+        .rate-and-sub-dub-container{
+            display: flex;    
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .sub,
+        .dub{
+            display: flex; 
+            align-items: left;   
+        }
+        .count{
+            font-size: 12px;
+        }
+        .star{
+            display: flex;
+            margin-right: 5px;
+        }
+        .star-icon{
+            width: 12px;
+            align-items: left;
+            margin-right: 2px;
+        }
+    /* rating and sub dub container */
+.summary{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.some-infos-box{
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+.some-infos{
+    color: rgb(130, 130, 130);
+}
+.genre{
+    color: rgb(250, 250, 250);
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.genre-types:hover{
+    color: rgb(229, 9, 20);
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -25px;
+}
+.anime-tooltip button{
+    background-color: rgb(28, 28, 28);
+    color: rgb(250, 250, 250);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px; 
+    display: flex;
+    align-items: center; 
+    cursor: pointer; 
+}
+.watch-now-button{    
+    padding: 5px 40px; 
+    margin-right: 12px; 
+}  
+.add-button{
+    font-size: 28px;
+    padding: 0px 10px 1px 10px;
+} 
+/* Tooltip*/
