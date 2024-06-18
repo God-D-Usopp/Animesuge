@@ -1,0 +1,124 @@
+html{
+    scrollbar-color: rgb(70, 70, 70) rgb(27, 27, 27);
+    overflow-y: scroll;
+}
+body{
+    font-family: Pathway Extreme, sans-serif;
+    background-color: rgb(22, 22, 22);
+    color: rgb(109, 109, 109);
+    height: 3000px;
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+ /*making reactive*/
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 17px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+@media (max-width:770px){
+    .main {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+@media (min-width:771px) and (max-width:990px){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width:991px) and (max-width:1200px){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1201px) and (max-width:1400px){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+/*container*/
+.recent-container{
+    display: inline-block;
+    
+}
+
+/* image and anime type*/
+.anime-top{
+    width: 100%;
+    margin-bottom: 0px;
+    object-fit: contain;
+    position: relative;
+}
+.anime-image{
+    width: 100%;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.anime-type{
+    position: absolute;
+    color: rgb(237, 237, 237);
+    background-color: rgb(229, 9, 20);
+    font-size: 11px;
+    padding: 2px 6px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+/* sub and dub information*/
+.sub-dub-total{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.sub,
+.dub{
+    display: flex; 
+    align-items: center;
+    color: rgb(206, 206, 206); 
+    background-color: rgb(42, 42, 42);
+    border: none;
+    padding: 0px 6px 0px 3px;
+}
+.count{
+    font-size: 12px;
+}
+.sub-icon{
+    width: 12px;
+    margin-right: 2px;
+}
+
+.mic-icon{
+    width: 12px;
+    vertical-align: top;
+}
+.total{
+    font-size: 11px;
+    background-color: rgb(35, 35, 35);
+    color: rgb(206, 206, 206);
+    padding: 1px 4px;
+}
+
+/* anime title secction*/
+.anime-name{
+    font-size: 14.5px;
+    height: 36px;
+    margin-top: 7px;
+    padding-bottom: 0.5px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.20s;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.anime-name:hover{
+    color: rgb(250, 250, 250);
+}
