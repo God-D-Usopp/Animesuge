@@ -147,10 +147,6 @@ body{
     text-align: left;
     transition: opacity 0.15s;
 }
-.anime-tooltip .third{
-    position: absolute;
-    right: 200%;
-}
 .anime-top:hover .anime-tooltip{
     opacity: 1;
     visibility: visible;
@@ -250,3 +246,4 @@ body{
     padding: 0px 10px 1px 10px;
 } 
 /* Tooltip*/
+

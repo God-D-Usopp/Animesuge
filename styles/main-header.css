@@ -1,0 +1,72 @@
+/*START: main header navbar*/
+.main-header,
+.categories,
+.pages{
+    display: flex;
+    align-items: flex-end;
+}
+.main-header{
+    margin-bottom: 22px;
+    justify-content: space-between;
+    text-align: left;
+}
+.recent-update{
+    color: rgb(237, 237, 237);
+    font-style: bold;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100px;
+    margin-right: 28px;
+}
+.categories{
+    align-items: flex-end;
+    font-size: 16px;
+    text-align: left;
+    margin-right: auto;
+    text-size-adjust: 100%;
+}
+.categories .tag{
+    text-align: left;
+    padding: 0px 13px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.categories .all-tag{
+    padding-right: 13px;
+    cursor: pointer;
+}
+.categories .tag:hover,
+.categories .all-tag:hover,
+.pages .prev-page:hover,
+.pages .next-page:hover{
+    color: rgb(237, 237, 237);
+}
+.categories .pages{
+    text-align: right;
+}
+.prev-page,
+.next-page{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+@media (max-width:560px){
+    .main-header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start
+    }
+    .categories .all-tag{
+        padding-left: 0px;
+        cursor:pointer;
+    }
+    .categories{
+        height: 40px;
+        flex-wrap: wrap;
+    }
+    .main-header .pages{
+        position: absolute;
+        right: 10px;
+    }
+}
+/*END: main header navbar*/
