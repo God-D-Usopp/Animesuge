@@ -1,0 +1,108 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 29px 0px;
+    text-size-adjust: 100%;
+}
+/* animesuge logo start*/
+.logo-container{
+    flex-grow: 0.75;
+}
+.animesuge-logo{
+    width: 125px;
+    color: rgb(211, 211, 211);
+}
+/* animesuge logo end*/
+
+/* menu start*/
+.header-menu{
+    display: flex;
+    color: rgb(211, 211, 211);
+}
+.menu{
+    padding-left: 23px;
+}
+/* menu end*/
+
+/*toggle code start*/
+.toggle-container{
+    display: flex;
+}
+.toggle-english{
+    background-color: rgb(229, 9, 20);
+    color: rgb(237, 237, 237);
+    font-size: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.toggle-japanese{
+    background-color: rgb(45, 45, 45);
+    color:  rgb(109, 109, 109);
+    font-size: 13px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+/*toggle code end*/
+
+/*sign in start*/
+.sign-in-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    
+}
+.sign-in-image{
+    width: 40px;
+    
+}
+.sign-in{
+    color: rgb(211, 211, 211);
+    font-size: 14px;
+    font-weight: bold;
+}
+/*sign in end*/
+@media (min-width:1196px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+@media (max-width:1195px){
+    .header{
+        position: relative;
+    }
+    .hamburger-menu{
+        display: flex;
+        margin-right: 20px;
+    }
+    .hamburger-img{
+        width: 40px;
+        order: 0;
+    }
+    .toggle-container{
+        order: 1;
+        display: flex;
+        justify-content: left;
+    }
+    .logo-container{
+        order: 3;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .animesuge-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95px;
+    }
+    .header-menu{
+        display: none;
+    }
+    
+    
+    .sign-in-container{
+        order: 4;
+    }
+}
