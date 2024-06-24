@@ -18,6 +18,7 @@ body{
     row-gap: 17px;
     padding-left: 3px;
     padding-right: 3px;
+    margin-bottom: 50PX;
 }
 @media (max-width:770px){
     .main {
