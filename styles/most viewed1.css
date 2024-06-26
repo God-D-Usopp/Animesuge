@@ -1,0 +1,135 @@
+.most-view{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    border-top-style: solid;
+    border-top-color: rgb(229, 9, 20);
+    border-top-width: 2px;
+    background-color: rgb(27, 27, 27);
+    max-height: 635px;
+}
+.most-view-top{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.most-view-top-left{
+    color: rgb(237, 237, 237);
+    font-weight: 500;
+    font-size: 18px;
+}
+.most-view-top-right .day{
+    color: rgb(230, 230, 230);
+}
+.most-view-top-right .time{
+    font-size: 15px;
+    color: rgb(84, 84, 84);
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+/* first anime start*/
+.top-anime{
+    display: flex;
+    height: 150px;
+    cursor: pointer;
+}
+.rank{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    width: 75px;
+    padding: 0px 17px 15px 17px;
+}
+.rank span{
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(27, 27, 27);
+    border-bottom-width: 3px;
+}
+.anime-banner{ 
+    height: 150px;
+    overflow: hidden;
+}
+.demonslayer-banner1,
+.demonslayer-banner2{
+    height: 177px;
+}
+.anime-info-container{
+    padding: 15px;
+    cursor: pointer;
+}
+.anime-info-container:hover{
+    background-color: rgb(40, 40, 40);
+}
+.top-anime-name{
+    color: rgb(237, 237, 237);
+    font-size: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.anime-info{
+    display: flex;
+}
+.tv{
+    font-size: 14px;
+    margin-right: 10px;
+}
+/* first anime end*/
+
+/* ruuner-up-animes-start */
+.following-animes,
+.following-animes1{
+    padding: 13.5px;
+    position: relative;
+    background-color: rgb(30, 30, 30); 
+    text-size-adjust: 100%;
+    display: flex;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.following-animes:hover,
+.following-animes1:hover{
+    background-color: rgb(40, 40, 40);
+}
+.following-animes1{
+    background-color: rgb(27, 27, 27);
+}
+.rank-number{
+    position: absolute;
+    top: 0px;
+    background-color: rgb(229, 9, 20);
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 5px;
+}
+.runner-up-animes-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    overflow: hidden;
+    padding-right: 5px;
+}
+.runner-up-animes-name{
+    color: rgb(237, 237, 237);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-size-adjust: 100%;
+}
+.runner-up-image-container{
+    height: 71px;
+}
+.runner-up-animes-image{
+    width: 50px;
+}
+/* ruuner-up-animes-end */

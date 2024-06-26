@@ -1,0 +1,64 @@
+@media (max-width:765px){
+    .demonslayer-banner1{
+        width: 638px;
+    }
+    .demonslayer-banner2{
+        display: none;
+    }
+} 
+@media (min-width:768px) and (max-width:1199px){
+    .hot-stat{
+        display: flex;
+        flex-direction:row;
+        vertical-align: top;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .recently-added{
+        display: block;
+        margin-right: 0px;
+        min-width: 0px;
+        width: 49%;
+        
+    }
+    .most-view{
+        display: block;
+        min-width: 0px;
+        margin-top: 0px;
+        width: 49%;            
+    } 
+    .just-completed{
+        margin-top: 40px;
+        flex:1;   
+    } 
+}
+@media (min-width:1200px){
+    .hot-stat{
+        display: flex;
+        flex-direction:row;
+        vertical-align: top;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .recently-added{
+        display: block;
+        margin-right: 0px;
+        min-width: 0px;
+        width: 32%;
+        
+    }
+    .most-view{
+        display: block;
+        min-width: 0px;
+        margin-top: 0px;
+        width: 32%;            
+    } 
+    .just-completed{
+        display: block;
+        min-width: 0px;
+        margin-top: 0px;
+        width: 32%;   
+    } 
+}
