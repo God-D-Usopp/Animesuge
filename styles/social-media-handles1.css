@@ -1,0 +1,113 @@
+.share{
+    margin-bottom: 50px;
+}
+.share-text{
+    font-size: 13px;
+    text-align: center;
+    text-size-adjust: 100%;
+    padding: 0px 10%;
+}
+@media (min-width:991px){
+    .share-text{
+        font-size: 14.5px;
+    }
+}
+.social-media-platforms{
+    display: flex;
+    color:white;
+    font-size: 12px;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.facebook{
+    display: flex;
+    background-color: rgb(66, 103, 178);
+    padding: 6px 25px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+.img-container{
+    padding-top: 1px;
+    margin-right: 14px;
+}
+.twitter{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 6px 25px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+.twitter-img{
+    width: 15px;
+}
+.messenger{
+    display: flex;
+    background-color: rgb(68, 138, 255);
+    padding: 6px 25px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+.reddit{
+    display: flex;
+    background-color: rgb(255, 69, 0);
+    padding: 6px 25px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+.whatsapp{
+    display: flex;
+    background-color: rgb(37, 211, 102);
+    padding: 6px 25px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+.telegram{
+    display: flex;
+    background-color:rgb(0, 136, 204);
+    padding: 6px 15px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+@media (max-width:800px){
+    .followers5{
+        display: none;
+    }
+    .whatsapp{
+        padding: 6px 10px 6px 18px;
+        
+    }
+}
+@media (max-width:730px){
+    .followers4{
+        display: none;
+    }
+    .reddit{
+        padding: 6px 9px 6px 19px;
+    }
+}
+@media (max-width:660px){
+    .followers3{
+        display: none;
+    }
+    .messenger{
+        padding: 6px 7px 6px 21px;
+    }
+}
+@media (max-width:590px){
+    .followers2{
+        display: none;
+    }
+    .twitter{
+        padding: 6px 8px 6px 20px;
+    }
+}
+@media (max-width:522px){
+    .followers1{
+        display: none;
+    }
+    .facebook{
+        padding: 6px 8px 6px 20px;
+    }
+}

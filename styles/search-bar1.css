@@ -1,0 +1,99 @@
+.search-bar{
+    display: flex;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.search-button{
+    background-color: rgb(14, 14, 14);
+    border: none;
+    cursor: pointer;
+}
+.search-icon{
+    padding-top: 5px;
+}
+.searchbar1{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    color: rgb(109, 109, 109);
+    border: none;
+    outline: none;
+    margin-left: -8px;
+    font-size: 14px;
+}
+
+.filter-button{
+    background-color: rgb(45, 45, 45);
+    color: rgb(230, 230, 230);
+    font-size: 12px;
+    border:none;
+    padding: 3px 8px;
+    vertical-align: middle;
+    border-color: rgb(14, 14, 14);
+    border-style: solid;
+    border-width: 8px;
+    cursor: pointer;
+}
+/* second searchbar */
+.search-bar2{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.ul-dappa{
+    display: flex;
+    width: 725px;
+    justify-content: center;
+    height: 55px;
+    border: none;
+    vertical-align: middle;
+    position: relative;   
+}
+.search-button2{
+    background-color: white;
+    border-color: white;
+    border-style: solid;  
+    height: 55px;
+    overflow: hidden;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.search-icon2{
+    width: 34px;
+}
+.searchbar2{
+    color: rgb(33, 33, 33);
+    font-size:19px;
+    outline: none;
+    margin-left: -10px;
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    flex: 1;
+}
+.filter-button2{
+    background-color:  rgb(229, 9, 20);
+    color: white;
+    padding: 8px 17px 8px 17px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    bottom: 10px;
+    vertical-align: middle;
+}
+@media (max-width:990px){
+    .search-bar2{
+        display: none;
+    }
+}
+@media (min-width:990px){
+    .search-bar{
+        display: none;
+    }
+}
